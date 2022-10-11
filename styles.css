@@ -1,0 +1,369 @@
+.header {
+  background-color: #0aaaa0;
+  height: 2.5rem;
+}
+.background {
+  /* position: relative; */
+  margin-top: -10px;
+}
+.below-text {
+  margin: auto;
+}
+.donation-heading {
+  text-align: center;
+  margin-left: 70px;
+  font-size: 21.3px;
+}
+.question {
+  text-align: center;
+  margin-bottom: -1rem;
+}
+.details {
+  text-align: center;
+  margin-top: -2rem;
+}
+.donation-query {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+h6 > hr {
+  padding-top: -50px;
+  border: 2px solid brown !important;
+  opacity: 1;
+}
+.volunteer {
+  /* margin-top: 2rem; */
+
+  padding-top: 3rem;
+}
+.vol-don-buttons {
+  /* background-image: url(./Images/shutterstock_1803390757-1024x512.jpg); */
+  margin-top: -1.95rem;
+}
+.donate {
+  /* background-color: #0AAAA0; */
+  margin-left: 20px;
+}
+#donate-now:hover {
+  cursor: pointer;
+}
+.fund-breadcumb {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.fund-breadcumb a {
+  border: 2px solid #0aaaa0;
+  border-radius: 10px;
+  background-color: #0aaaa0;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.page-title {
+  opacity: 1;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 0;
+}
+
+.vol-button {
+  margin: auto;
+}
+.vol-text {
+  padding-top: 1rem;
+  margin: auto;
+  color: white;
+  font-weight: 700;
+}
+hr {
+  opacity: 1;
+  border-color: brown !important;
+}
+ul.navbar-nav {
+  margin: auto;
+}
+.social {
+  float: right;
+  padding-top: 0.5rem;
+  color: white;
+  margin: 0rem 5rem 0rem 0rem;
+  width: fit-content;
+  font-size: 14px;
+}
+.row {
+  margin-right: 0px;
+}
+.icn {
+  color: white;
+  /* margin-left: 1rem; */
+}
+/* .navDiv{
+    margin: 0 auto;
+  } */
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.para {
+  color: white;
+  text-align: center;
+}
+.logo {
+  text-align: center;
+}
+.contact {
+  margin-top: -3rem;
+  color: white;
+}
+.down {
+  margin-left: 1rem;
+  border: 3px solid;
+  border-color: yellow !important;
+}
+
+h5 {
+  margin-bottom: 0px;
+  color: orange;
+  margin-top: 2rem;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #0aaaa0;
+  height: 10vh;
+  font-size: 37px;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+.point-1,
+.point-2 {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.butn {
+  /* margin-left: 18rem; */
+  margin-top: 1rem;
+}
+.volunteer-btn {
+  background-color: #0aaaa0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  margin: auto;
+  align-items: center;
+}
+.info {
+  margin: auto;
+  text-align: left;
+}
+.help-btn {
+  background-color: #0aaaa0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#btn-help,
+.butn {
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 3px solid white;
+  /* border-color: white; */
+  /* margin-left: 37rem; */
+  color: white;
+}
+@media screen and (max-width: 516px) {
+  .inside {
+    /* margin-left: 2rem; */
+    text-align: center;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 899px) {
+  .inside {
+    /* margin: auto; */
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text-but {
+    /* margin-left: 2rem; */
+    align-items: center;
+    text-align: center;
+  }
+  .contact {
+    margin-top: 2rem;
+    /* margin: auto; */
+    text-align: center;
+  }
+  .down {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .para {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .para {
+    margin-left: 3rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .volt {
+    margin-left: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .card-three {
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .card-3,
+  .card-4 {
+    height: 30rem;
+    margin-left: -2rem;
+  }
+  .card-5,
+  .card-6 {
+    margin-left: -2rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    margin-left: -2rem;
+  }
+  .card-3,
+  .card-4 {
+    height: 25rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .card-1 {
+    margin-right: 0rem;
+    margin-left: -2rem;
+  }
+  .card-2 {
+    margin-left: -2rem;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    height: 25rem;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    margin-left: -2rem;
+  }
+  .card-4,
+  .card-5,
+  .card-6 {
+    height: 26rem;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+  .card-stack {
+    margin-left: -3rem;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    height: 25rem;
+  }
+}
+@media screen and (min-width: 1220px) and (max-width: 1680px) {
+  .card-4,
+  .card-5,
+  .card-6 {
+    height: 25rem;
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 2080px) {
+  .card-4,
+  .card-5,
+  .card-6 {
+    height: 27rem;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 1944px) {
+  .card-stack {
+    margin-left: -3rem;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    height: 26rem;
+  }
+}
+@media screen and (min-width: 1944px) and (max-width: 2080px) {
+  .card-stack {
+    margin-left: -3rem;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    height: 27rem;
+  }
+}
+@media screen and (min-width: 2080px) {
+  .card-stack {
+    margin-left: -3rem;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    height: 28rem;
+  }
+  .card-4,
+  .card-5,
+  .card-6 {
+    height: 28rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .card-stack {
+    margin-left: 0.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  h6 > hr {
+    margin-right: 1.5rem;
+  }
+  .donation-heading {
+    margin-right: 3rem;
+  }
+}
+@media screen and (max-width: 372px) {
+  .page {
+    font-size: 30px;
+  }
+}
